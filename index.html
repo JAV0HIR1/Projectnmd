@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EduLearn - Your premier online education platform for quality courses and certifications">
+    <title>EduLearn - Online Education Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>EduLearn</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="btn btn-outline">Login</button>
+                    <button class="btn btn-primary">Sign Up</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Unlock Your Potential with
+                        <span class="highlight">Quality Education</span>
+                    </h1>
+                    <p class="hero-description">
+                        Access thousands of courses taught by industry experts. Learn at your own pace, 
+                        earn certifications, and advance your career with EduLearn.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-lg">
+                            <i class="fas fa-play-circle"></i>
+                            Get Started
+                        </button>
+                        <button class="btn btn-outline btn-lg">
+                            <i class="fas fa-book-open"></i>
+                            Browse Courses
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h3>50K+</h3>
+                                <p>Active Students</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <h3>1000+</h3>
+                                <p>Online Courses</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <div>
+                                <h3>500+</h3>
+                                <p>Expert Instructors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <i class="fas fa-laptop-code hero-icon"></i>
+                        <div class="floating-card card-1">
+                            <i class="fas fa-trophy"></i>
+                            <p>Certified Courses</p>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-clock"></i>
+                            <p>Learn Anytime</p>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-star"></i>
+                            <p>Top Rated</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Courses</h2>
+                <p class="section-description">Explore our most popular courses across various categories</p>
+            </div>
+
+            <!-- Course Categories -->
+            <div class="course-categories">
+                <button class="category-btn active" data-category="all">
+                    <i class="fas fa-th"></i> All Courses
+                </button>
+                <button class="category-btn" data-category="technology">
+                    <i class="fas fa-laptop-code"></i> Technology
+                </button>
+                <button class="category-btn" data-category="business">
+                    <i class="fas fa-briefcase"></i> Business
+                </button>
+                <button class="category-btn" data-category="design">
+                    <i class="fas fa-palette"></i> Design
+                </button>
+                <button class="category-btn" data-category="languages">
+                    <i class="fas fa-language"></i> Languages
+                </button>
+                <button class="category-btn" data-category="science">
+                    <i class="fas fa-flask"></i> Science
+                </button>
+            </div>
+
+            <!-- Course Grid -->
+            <div class="course-grid">
+                <!-- Course Card 1 -->
+                <div class="course-card" data-category="technology">
+                    <div class="course-image">
+                        <i class="fas fa-code course-icon"></i>
+                        <div class="course-badge">Bestseller</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">
+                                <i class="fas fa-tag"></i> Technology
+                            </span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <h3 class="course-title">Complete Web Development Bootcamp</h3>
+                        <p class="course-description">Master HTML, CSS, JavaScript, React, and Node.js to become a full-stack developer</p>
+                        <div class="course-footer">
+                            <div class="course-info">
+                                <span><i class="fas fa-users"></i> 12,543 students</span>
+                                <span><i class="fas fa-clock"></i> 40 hours</span>
+                            </div>
+                            <button class="btn btn-course">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="course-card" data-category="design">
+                    <div class="course-image">
+                        <i class="fas fa-paint-brush course-icon"></i>
+                        <div class="course-badge badge-new">New</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">
+                                <i class="fas fa-tag"></i> Design
+                            </span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i> 4.9
+                            </span>
+                        </div>
+                        <h3 class="course-title">UI/UX Design Masterclass</h3>
+                        <p class="course-description">Learn user interface and experience design with Figma and Adobe XD</p>
+                        <div class="course-footer">
+                            <div class="course-info">
+                                <span><i class="fas fa-users"></i> 8,932 students</span>
+                                <span><i class="fas fa-clock"></i> 30 hours</span>
+                            </div>
+                            <button class="btn btn-course">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="course-card" data-category="business">
+                    <div class="course-image">
+                        <i class="fas fa-chart-line course-icon"></i>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">
+                                <i class="fas fa-tag"></i> Business
+                            </span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i> 4.7
+                            </span>
+                        </div>
+                        <h3 class="course-title">Digital Marketing Complete Course</h3>
+                        <p class="course-description">Master SEO, social media marketing, email marketing, and Google Analytics</p>
+                        <div class="course-footer">
+                            <div class="course-info">
+                                <span><i class="fas fa-users"></i> 15,234 students</span>
+                                <span><i class="fas fa-clock"></i> 35 hours</span>
+                            </div>
+                            <button class="btn btn-course">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 4 -->
+                <div class="course-card" data-category="technology">
+                    <div class="course-image">
+                        <i class="fas fa-robot course-icon"></i>
+                        <div class="course-badge">Popular</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">
+                                <i class="fas fa-tag"></i> Technology
+                            </span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i> 4.9
+                            </span>
+                        </div>
+                        <h3 class="course-title">Machine Learning & AI Fundamentals</h3>
+                        <p class="course-description">Learn Python, data science, and artificial intelligence from scratch</p>
+                        <div class="course-footer">
+                            <div class="course-info">
+                                <span><i class="fas fa-users"></i> 10,876 students</span>
+                                <span><i class="fas fa-clock"></i> 45 hours</span>
+                            </div>
+                            <button class="btn btn-course">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 5 -->
+                <div class="course-card" data-category="languages">
+                    <div class="course-image">
+                        <i class="fas fa-globe course-icon"></i>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">
+                                <i class="fas fa-tag"></i> Languages
+                            </span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <h3 class="course-title">Complete English Speaking Course</h3>
+                        <p class="course-description">Improve your English speaking, listening, and pronunciation skills</p>
+                        <div class="course-footer">
+                            <div class="course-info">
+                                <span><i class="fas fa-users"></i> 20,543 students</span>
+                                <span><i class="fas fa-clock"></i> 25 hours</span>
+                            </div>
+                            <button class="btn btn-course">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 6 -->
+                <div class="course-card" data-category="science">
+                    <div class="course-image">
+                        <i class="fas fa-atom course-icon"></i>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">
+                                <i class="fas fa-tag"></i> Science
+                            </span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i> 4.7
+                            </span>
+                        </div>
+                        <h3 class="course-title">Physics & Mathematics for Engineers</h3>
+                        <p class="course-description">Master calculus, physics, and mathematical modeling for engineering</p>
+                        <div class="course-footer">
+                            <div class="course-info">
+                                <span><i class="fas fa-users"></i> 7,654 students</span>
+                                <span><i class="fas fa-clock"></i> 50 hours</span>
+                            </div>
+                            <button class="btn btn-course">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn btn-primary btn-lg">View All Courses</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="section-title">About EduLearn</h2>
+                        <p class="section-description">Empowering learners worldwide since 2020</p>
+                    </div>
+                    <p class="about-paragraph">
+                        EduLearn is a leading online education platform dedicated to making quality education 
+                        accessible to everyone, everywhere. We believe that education is the key to unlocking 
+                        human potential and creating a better future.
+                    </p>
+                    <p class="about-paragraph">
+                        Our mission is to provide world-class education that empowers individuals to achieve 
+                        their goals and transform their careers. With over 1,000 courses taught by industry 
+                        experts, we're committed to delivering engaging, practical, and up-to-date content.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Expert Instructors</h4>
+                                <p>Learn from industry professionals with years of experience</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Flexible Learning</h4>
+                                <p>Study at your own pace, anytime and anywhere</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Lifetime Access</h4>
+                                <p>Once enrolled, access course materials forever</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Verified Certificates</h4>
+                                <p>Earn industry-recognized certificates upon completion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats-wrapper">
+                    <div class="about-stats">
+                        <div class="stat-box">
+                            <i class="fas fa-user-graduate"></i>
+                            <h3 class="stat-number" data-target="50000">0</h3>
+                            <p>Active Students</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-book-reader"></i>
+                            <h3 class="stat-number" data-target="1000">0</h3>
+                            <p>Quality Courses</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h3 class="stat-number" data-target="500">0</h3>
+                            <p>Expert Instructors</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-award"></i>
+                            <h3 class="stat-number" data-target="35000">0</h3>
+                            <p>Certificates Issued</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose EduLearn?</h2>
+                <p class="section-description">Discover what makes us the preferred choice for online learning</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="feature-title">Interactive Learning</h3>
+                    <p class="feature-description">
+                        Engage with interactive video lessons, quizzes, and hands-on projects that 
+                        reinforce your learning and keep you motivated.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="feature-title">Expert Instructors</h3>
+                    <p class="feature-description">
+                        Learn from industry professionals and subject matter experts who bring 
+                        real-world experience to every lesson.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="feature-title">Recognized Certifications</h3>
+                    <p class="feature-description">
+                        Earn industry-recognized certificates upon course completion to boost your 
+                        resume and advance your career.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="feature-title">Learn at Your Pace</h3>
+                    <p class="feature-description">
+                        Study on your own schedule with lifetime access to course materials. 
+                        No deadlines, no pressure.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Mobile Learning</h3>
+                    <p class="feature-description">
+                        Access courses on any device - desktop, tablet, or smartphone. 
+                        Learn anywhere, anytime.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="feature-title">Community Support</h3>
+                    <p class="feature-description">
+                        Join a vibrant community of learners. Ask questions, share insights, 
+                        and network with peers.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Updated Content</h3>
+                    <p class="feature-description">
+                        Stay current with regularly updated course content that reflects the 
+                        latest industry trends and technologies.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-description">
+                        Get help whenever you need it with our dedicated support team available 
+                        around the clock.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Have questions? We'd love to hear from you!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>123 Education Street<br>Learning City, LC 12345<br>United States</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>Phone: +1 (555) 123-4567<br>Toll Free: 1-800-EDU-LEARN<br>Mon-Fri: 9AM - 6PM</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@edulearn.com<br>support@edulearn.com<br>careers@edulearn.com</p>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering millions of learners worldwide with quality education. 
+                        Start your learning journey today!
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Languages</a></li>
+                        <li><a href="#">Science</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="footer-newsletter-text">Subscribe to get the latest updates and offers</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved. | Designed with <i class="fas fa-heart"></i> for learners worldwide</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
